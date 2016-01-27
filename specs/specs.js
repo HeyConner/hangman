@@ -1,6 +1,8 @@
-describe("randomWord", function() {
-  it("creates a list of words the computer can randomly select from for a new Hangman game ", function() {
-  expect(randomWord).to.be.a('string');
+describe("wordObject", function() {
+  it("creates a word object with a random word from our list and an array with all of the letters broken into separate strings", function() {
+    var newGame = new wordObject ();
+    expect(newGame.randomWord).to.be.a('string');
+    expect(newGame.randomWordLettersArray).to.be.a('array');
   });
 });
 
