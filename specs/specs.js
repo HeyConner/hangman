@@ -6,6 +6,8 @@ describe("randomWord", function() {
 
 describe("randomWordLettersArray", function() {
   it("splits the random word string into an array of separate letters", function() {
-  expect(randomWordLettersArray).to.be.a('array');
+  expect().to.be.a('array');
   });
 });
+
+describe("")
